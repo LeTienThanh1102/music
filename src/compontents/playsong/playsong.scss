@@ -1,0 +1,57 @@
+.playsong{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+}
+.playsong-container{
+    display: flex;
+    height: 80px;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(3, 30, 90);
+    padding: 0 34px 0 24px;
+
+}
+.sing-nameee{
+    font-size: 16px;
+}
+.playsong.active{
+    display: block;
+}
+.playsong-img,
+.playsong-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playsong-name{
+    margin-left: 20px;
+}
+.playsong-anh{
+    width: 80px;
+    height: 60px;
+    border-radius: 8px;
+}
+.playsong-tym{
+    margin-left: 16px;
+    font-size: 16px;
+    color: #fff;
+}
+.playsong-nut{
+    margin: 0 20px;
+    font-size: 20px;
+    color: #fff;
+}
+.play-close{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgb(94, 91, 238);
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 16px;
+
+}

@@ -1,0 +1,24 @@
+.layout{
+    display: flex;
+}
+.grid-col-2{
+    max-width: 16.66667%;
+    height: 330vh;
+}
+.first{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.grid-col-10{
+    width: 83.33333%;
+    margin-left:16.66667%;
+}
+.app-pro{
+    background-color:#0d1333;
+    margin-top: 70px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 20px;
+}

@@ -1,0 +1,89 @@
+.main-day{
+    margin-top: 70px;
+    padding: 0 30px;
+    display: flex;
+}
+.main{
+    background-color: #0d1333;
+}
+.main-header{
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+}
+.day-img{
+    padding-top: 80px;
+}
+.day-infor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    & p{
+        padding: 0 12px;
+        text-align: center;
+        line-height: 20px;
+        margin-bottom: 0;
+        color: #fff;
+        font-weight: 500;
+        font-size: 20px;
+    }
+}
+.day-address{
+    color: #fff;
+    margin-top: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+.day-list{
+    margin-top: 80px;
+    height: 70vh;
+    overflow-y: auto;
+}
+.day-anh{
+    width: 50px;
+    height:50px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.day-pro{
+    border-radius: 10px;
+    &:hover{
+        background-color: #1e1957;
+    }
+    margin-left: 20px;
+}
+.day-items{
+    padding: 6px 0 6px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(100, 99, 99);
+    
+}
+.day-title{
+    flex: 3;
+    margin-left: 12px;
+}
+.day-name{
+    color: #fff;
+    font-size: 16px;
+}
+.day-singer{
+    font-size: 14px;
+    color: #a3a1a1;
+}
+.day-duration{
+    flex: 1;
+    color: #fff;
+}
+.day-icons{
+    flex: 2;
+    color: #fff;
+}
+.day-icon{
+    font-size: 16px;
+    padding: 0 12px;
+
+}

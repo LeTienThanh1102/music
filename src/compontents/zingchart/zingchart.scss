@@ -1,0 +1,33 @@
+.zingchart{
+    margin-top: 60px;
+    &-heading{
+        margin-bottom: 40px;
+    }
+    &-list{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center
+    }
+    &-items{
+        list-style: none;
+        margin: 12px 20px;
+    }
+    &-img{
+        width: 360px;
+        margin: 0 12px;
+        border-radius: 5px;
+    }
+    &-loving{
+        color: #ccc;
+        text-decoration: none;
+    }
+    &-loving{
+        text-align: center;
+        font-size: 1.5rem;
+        text-transform: uppercase;
+    }
+    &-name{
+        margin-bottom: 5px;
+    }
+}

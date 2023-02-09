@@ -1,0 +1,77 @@
+.singer{
+    margin-top: 60px;
+}
+.grid-col-2-2{
+    max-width: 20%;
+    flex: 0 0 20%;
+}
+.singer-vpop-heading{
+    display: flex;
+   justify-content: space-between;
+   margin: 30px 30px 0;
+}
+.singer-vpop-content{
+    color: #ccc;
+    font-size: 1.8rem;
+}
+.singer-vpop-all{
+    color: #9568e8;
+    font-size: 1.8rem;
+    text-decoration: none;
+    display: flex;
+}
+.singer-vpop-tatca{
+    margin-right: 6px;
+}
+.singer-vpop-list{
+    display: flex;
+}
+
+
+.singer-vpop-item{
+    padding: 10px;
+    transition: all 0.2s;
+    margin-left: 10px;
+    position: relative;
+    transform: scale(1);
+    /* overflow: hidden; */
+    &:hover .singer-vpop-img {
+        opacity: 0.5;
+    }
+    
+    &:hover .singer-vpop-name {
+        opacity: 1;
+    }
+    &:hover{
+        transform: scale(1.1) ;
+    }
+}
+.singer-vpop-img{
+    width: 100%;
+    height: 178px;
+    object-fit: cover;
+    opacity: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.singer-vpop-name{
+    position: absolute;
+    color: rgba(236, 17, 17, 0.961);
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+.singer-lastday{
+    display: flex;
+}
+.singer-lastday-icon{
+    font-size: 2rem;
+    color: #ccc;
+    margin: 0 10px;
+}

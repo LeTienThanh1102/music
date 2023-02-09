@@ -1,0 +1,39 @@
+.subrcrice-main{
+    margin-top: 70px;
+    background-color: rgb(117, 114, 114);
+
+}
+.subrcrice{
+    &-produc{
+        padding: 30px;
+    }
+    &-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 12px;
+        border-radius: 5px;
+        background-color: rgb(3, 10, 67);
+    }
+    &-img{
+        width: 280px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    &-infor{
+        padding: 0 12px;
+        
+    }
+    &-name{
+        color: rgb(243, 93, 12);
+        font-size: 20px;
+    }
+    &-them{
+        color: #ccc;
+    }
+    &-title{
+        color: #fff;
+    }
+}

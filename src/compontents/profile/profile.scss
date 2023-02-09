@@ -1,0 +1,103 @@
+.profile-main{
+    margin-top: 70px;
+    background-color: rgb(5, 4, 45);
+}
+.profilel-heading{
+    display: flex;
+    flex-direction: column;
+    &-no1{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}
+.profile-header{
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    &-img{
+        width:160px;
+        height: 160px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    &-info{
+        padding:0 10px;
+        color: #ed8a5b;
+    }
+    &-name{
+        color: #f15d1e;
+        padding: 0;
+        margin: 0;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+    &-sol{
+        font-size: 18px;
+        padding: 4px 4px;
+    }
+    &-them{
+        padding: 12px 20px;
+        color: #fff;
+        margin: 0 60px 0 120px;
+        border-radius: 5px;
+        font-size: 15px;
+        background-color: rgb(220, 57, 57);
+        &:hover{
+            background-color: rgb(245, 121, 121);
+            color: #000;
+        }
+    }
+    &-edit{
+        display: flex;
+        justify-content: center;
+        padding: 12px 20px;
+        color: #181616;
+        font-size: 15px;
+        margin: 0 0 0 30px;
+        border-radius: 5px;
+        background-color: rgb(240, 198, 198);
+        &-name{
+            margin: 0;
+            padding: 0 4px;
+        }
+        &:hover{
+            background-color: rgb(245, 121, 121);
+            color: #000;
+        }
+    }
+}
+.profilel-heading-no2{
+    padding: 12px 0;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(77, 75, 75);
+}
+.profile-heading-list{
+    display: flex;
+    flex-direction: row;
+}
+.profile-heading-item{
+   color: rgb(230, 91, 22);
+   padding: 12px 20px;
+   border-radius: 5px;
+   font-size: 16px;
+   &:hover{
+    background-color: #524f4e;
+    color: rgb(218, 209, 209);
+   }
+}
+.profile-heading-icon{
+    margin: 0px 30px;
+    padding: 12px 24px;
+    background-color: #524f4e;
+    color: #ed7a16;
+    border-radius: 10px;
+}
+.profile-table{
+    font-size: 30px;
+    text-align: center;
+    color: #f5d20d;
+    padding: 0 0 30px;
+}
